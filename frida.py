@@ -17,7 +17,7 @@ print(paintings)
 
 #generating index for audio
 print(len(paintings))
-audio_tour_number = range(1, len(paintings))
+audio_tour_number = list(range(1, len(paintings) + 1))
 print(audio_tour_number)
 
 #putting togheter audio tour number and paintings
